@@ -1,4 +1,4 @@
-// HOC hay higher order function là cách các
+// HOC hay higher order function là cách
 // truyền và trả về các function như 1 biến,
 // function được xem là 'first class'
 // Mình thử xét ví dụ này:
