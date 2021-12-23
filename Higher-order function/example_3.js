@@ -80,6 +80,7 @@ leephan2.withdraw(100); // message: Oops! you can't withraw
 //TỔNG KẾT: qua ví dụ về function taiKhoan(), ta có thể hiểu closure
 //là việc các function con có thể  truy cập biến trên phạm vi function cha
 //ngay cả khi scope bị đóng (tức hàm đã trả về)
+// - "cơ chế" closure xảy ra ở function xemSoDu(), rutTien() và napTien()
 // - scope: tạm hiểu là vòng đời của 1 biến, có 3 loại scope (block, local, global)
 
 /*Nếu có gì sai sót mong các bạn góp ý*/
