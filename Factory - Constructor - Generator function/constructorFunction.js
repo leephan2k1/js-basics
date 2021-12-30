@@ -35,3 +35,10 @@ User.prototype.test = function () {
 };
 console.log(user1.test()); //test
 console.log(user2.test()); //test
+
+/**
+ * Các state trong Constructor function không được bao đóng (private)
+ * ta hoàn toàn có thể lấy ra các state mà không thông qua method
+ */
+console.log(user1.firstName); //Lee
+console.log(user1.lastName); //Phan
